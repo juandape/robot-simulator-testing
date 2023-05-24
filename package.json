@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "test:coverage": "Escribe el script para ver la covertura de las pruebas"
+  }
+}
