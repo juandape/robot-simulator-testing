@@ -14,7 +14,6 @@ function createRobot(coordinates, orientation) {
     }
   }
   function advance() {
-    // función para avanzar
     switch (orientation) {
       case 'North':
         y += 1;
@@ -32,7 +31,6 @@ function createRobot(coordinates, orientation) {
   }
 
   function turnRight() {
-    // función para girar a la derecha
     switch (orientation) {
       case 'North':
         orientation = 'East';
@@ -49,7 +47,6 @@ function createRobot(coordinates, orientation) {
     }
   }
   function turnLeft() {
-    // función para girar a la izquierda
     switch (orientation) {
       case 'North':
         orientation = 'West';
@@ -93,7 +90,7 @@ function createRobot(coordinates, orientation) {
 module.exports = { createRobot };
 
 const robot = createRobot([6, 5], 'South');
-const instrucciones = 'RAALAL';
-robot.instructions(instrucciones);
+const guide = 'RAALAL';
+robot.instructions(guide);
 console.log(robot.getPosition());
 
