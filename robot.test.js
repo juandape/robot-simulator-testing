@@ -1,7 +1,19 @@
 const { createRobot } = require('./robot.js');
 
-describe('Robot', () => {
-	test('Cambia el titulo y empieza a escribir tu primera prueba', () => {
+describe('getPosition', () => {
+	test('Return error with message coorditates are wrong', () => {
+		const myRobot = createRobot([3, 5], 'North');
+			expect(createRobot([2, 3], 'North').getPosition()).toMatchObject({
+      coordinates: [2, 3],
+      orientation: 'North',
+    });
+  });
 
-	});
+
+  // test('coorditates are rigth', () => {
+  //   expect(createRobot([2, 3], 'North').getPosition()).toMatchObject({
+  //     coordinates: [2, 3],
+  //     orientation: 'North',
+  //   });
+  // });
 });

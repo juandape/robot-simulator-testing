@@ -4,6 +4,6 @@
   },
   "scripts": {
     "test": "jest --watch",
-    "test:coverage": "Escribe el script para ver la covertura de las pruebas"
+    "test:coverage": "jest --coverage"
   }
 }
