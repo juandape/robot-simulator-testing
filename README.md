@@ -1,4 +1,4 @@
-# robot-simulator-testing# Make It Real - Robot Simulator Testing
+# Make It Real - Robot Simulator Testing
 
 ## This is a solution to the _robot simulator testing_ mission of the Make It Real course.
 
