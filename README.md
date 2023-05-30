@@ -7,6 +7,10 @@
 create a robot simulator and test it
 
 
+## Print screen
+![print screen](./assets/print-screen1.png)
+
+
 ## My process
 
 ### Built with
@@ -21,8 +25,8 @@ I practice how to test a js program
 
 ## Author
 
-Juan David Peña  
-github - @juandape  
+Juan David Peña
+github - @juandape
 email - juandavidp76@hotmail.com
 
 ## Acknowledgments
