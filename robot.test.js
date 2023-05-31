@@ -6,8 +6,15 @@ describe('getPosition', () => {
 			expect(createRobot([2, 3], 'North').getPosition()).toMatchObject({
       coordinates: [2, 3],
       orientation: 'North',
-    });
+      });
   });
+
+  test('Should return error message with out of limits', () => {
+    const myRobot = createRobot([11, 1], 'South')
+    const result = myRobot.getPosition()
+    expect(result).toMatch(/Out of limits/i)
+  })
+
 
 
   test('should return coorditates are rigth', () => {
